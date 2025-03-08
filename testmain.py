@@ -57,7 +57,7 @@ def test_write_result():
     assert result == "100.00\n"
 
 
-# 清理临时文件
+# 清理临时文
 def teardown_module():
     import os
     os.remove("test.txt")
